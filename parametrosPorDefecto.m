@@ -1,0 +1,6 @@
+function p = parametrosPorDefecto()
+%PARAMETROSPORDEFECTO Configuración neutra y valores iniciales de los efectos.
+p = struct('ganancia',1,'ecoActivo',false,'delaySeg',0.25,'alpha',0.35, ...
+    'distorsionActiva',false,'intensidad',2,'filtroActivo',false, ...
+    'tipoFiltro','pasabajos','fc',1000,'orden',4,'velocidad',1,'invertirActivo',false);
+end
